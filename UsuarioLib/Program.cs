@@ -6,13 +6,6 @@ Usuario usuario =
         "daniel@email.com",
         new List<string>() {"12345678"});
 
-Usuario usuario2 =
-    new Usuario(
-        "Luis",
-        "luis@email.com",
-        new List<string>() { "87654321" });
-
-
 //12345678
 usuario.ExibeTelefones();
 
