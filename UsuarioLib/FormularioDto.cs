@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace UsuarioLib
 {
-    public interface ICoordenada
+    public record FormularioDto(string Nome, string Cpf, string Cargo)
     {
+        public int Idade { get; set; }
     }
 }
